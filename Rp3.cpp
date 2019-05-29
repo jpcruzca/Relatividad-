@@ -63,11 +63,11 @@ int main()
   std::cout <<"conmutador [Ky,Kx] \n"<< conmutador(Ky,Kx) <<std::endl;
   std::cout <<"conmutador [Ky,Kz] \n"<< conmutador(Ky,Kz) <<std::endl;
   
-  std::cout <<"conmutador [Kz,Jx] \n"<< conmutador(Kx,Jx) <<std::endl;
-  std::cout <<"conmutador [Kz,Jy] \n"<< conmutador(Kx,Jy) <<std::endl;
-  std::cout <<"conmutador [Kz,Jz] \n"<< conmutador(Kx,Jz) <<std::endl;
-  std::cout <<"conmutador [Kz,Ky] \n"<< conmutador(Kx,Ky) <<std::endl;
-  std::cout <<"conmutador [Kz,Kx] \n"<< conmutador(Kx,Kz) <<std::endl;
+  std::cout <<"conmutador [Kz,Jx] \n"<< conmutador(Kz,Jx) <<std::endl;
+  std::cout <<"conmutador [Kz,Jy] \n"<< conmutador(Kz,Jy) <<std::endl;
+  std::cout <<"conmutador [Kz,Jz] \n"<< conmutador(Kz,Jz) <<std::endl;
+  std::cout <<"conmutador [Kz,Kx] \n"<< conmutador(Kz,Kx) <<std::endl;
+  std::cout <<"conmutador [Kz,Ky] \n"<< conmutador(Kz,Ky) <<std::endl;
   
   return 0;
 }
